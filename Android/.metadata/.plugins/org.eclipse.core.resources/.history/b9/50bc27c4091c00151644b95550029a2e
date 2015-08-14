@@ -1,0 +1,18 @@
+package com.lidajun.uibestpractice;
+
+import java.util.List;
+
+import android.content.Context;
+import android.widget.ArrayAdapter;
+
+public class MsgAdapter extends ArrayAdapter<Msg> {
+	
+	private int resourceId;
+	
+	public MsgAdapter(Context context, int textViewResourceId, List<Msg> objects) {
+		super(context, textViewResourceId, objects);
+		resourceId = textViewResourceId;
+	}
+	
+	
+}

@@ -1,0 +1,9 @@
+package com.lidajun.listviewtest;
+
+import android.widget.ArrayAdapter;
+
+public class FruitAdapter extends ArrayAdapter<Fruit> {
+	
+	private int resourceId;
+	
+}

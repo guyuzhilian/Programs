@@ -1,0 +1,25 @@
+
+**** Clean-only build of configuration Default for project HelloCpp ****
+
+python D:/Project/code/newengine3.1/frameworks/cocos2d-x/templates/cpp-template-default/proj.android/build_native.py clean 
+Android NDK: WARNING: Ignoring unknown import directory: D:\Project\code\newengine3.1\frameworks\cocos2d-x\templates\cpp-template-default\proj.android\../cocos2d    
+Android NDK: WARNING: Ignoring unknown import directory: D:\Project\code\newengine3.1\frameworks\cocos2d-x\templates\cpp-template-default\proj.android\../cocos2d/external    
+Android NDK: WARNING: Ignoring unknown import directory: D:\Project\code\newengine3.1\frameworks\cocos2d-x\templates\cpp-template-default\proj.android\../cocos2d/cocos    
+Android NDK: jni/Android.mk: Cannot find module with tag '.' in import path    
+Android NDK: Are you sure your NDK_MODULE_PATH variable is properly defined ?    
+Android NDK: The following directories were searched:    
+Android NDK:         
+make.exe: Entering directory `D:/Project/code/newengine3.1/frameworks/cocos2d-x/templates/cpp-template-default/proj.android'
+make.exe: Leaving directory `D:/Project/code/newengine3.1/frameworks/cocos2d-x/templates/cpp-template-default/proj.android'
+The Selected NDK toolchain version was 4.8 !
+jni/Android.mk:28: *** Android NDK: Aborting.    .  Stop.
+Traceback (most recent call last):
+  File "D:/Project/code/newengine3.1/frameworks/cocos2d-x/templates/cpp-template-default/proj.android/build_native.py", line 166, in <module>
+    build(opts.ndk_build_param,opts.android_platform,opts.build_mode)
+  File "D:/Project/code/newengine3.1/frameworks/cocos2d-x/templates/cpp-template-default/proj.android/build_native.py", line 153, in build
+    do_build(cocos_root, ndk_root, app_android_root,ndk_build_param,sdk_root,android_platform,build_mode)
+  File "D:/Project/code/newengine3.1/frameworks/cocos2d-x/templates/cpp-template-default/proj.android/build_native.py", line 89, in do_build
+    raise Exception("Build dynamic library for project [ " + app_android_root + " ] fails!")
+Exception: Build dynamic library for project [ D:\Project\code\newengine3.1\frameworks\cocos2d-x\templates\cpp-template-default\proj.android ] fails!
+
+**** Build Finished ****

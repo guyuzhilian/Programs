@@ -1,0 +1,16 @@
+#sln related
+*.sdf
+*.opensdf
+
+#compile
+*.tlog
+*.log
+*.obj
+*.idb
+*.pdb
+
+#link
+*.exe
+*.ilk
+*.pdb
+

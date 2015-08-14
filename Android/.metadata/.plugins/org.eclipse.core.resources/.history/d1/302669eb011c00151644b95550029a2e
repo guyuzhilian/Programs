@@ -1,0 +1,5 @@
+package com.lidajun.uibestpractice;
+
+public class MsgAdapter extends ArrayAdapter<Msg> {
+	
+}
